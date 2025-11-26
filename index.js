@@ -1,8 +1,8 @@
 var no1 = Math.floor(Math.random() * 6 + 1);
 var no2 = Math.floor(Math.random() * 6 + 1);
 
-var imagesource1 = "/images/dice" + no1 + ".png";
-var imagesource2 = "/images/dice" + no2 + ".png";
+var imagesource1 = "images/dice" + no1 + ".png";
+var imagesource2 = "images/dice" + no2 + ".png";
 
 var image1 = document
 	.querySelectorAll(".img1")[0]
